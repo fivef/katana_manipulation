@@ -26,7 +26,7 @@
   <!-- alternative option: database server running on a local machine -->
   <rosparam command="load" file="$(find household_objects_database)/config/wgs36.yaml"/>
   <node pkg="household_objects_database" name="objects_database_node" type="objects_database_node"
-    respawn="true" output="screen"/>    
+    respawn="true" output="screen"/>  -->
 
   <!-- manipulation prerequisites -->
   <include file="$(find katana_object_manipulation_launch)/launch/katana_manipulation_prerequisites.launch">
